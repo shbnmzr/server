@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS db_edge_framework;
+CREATE USER IF NOT EXISTS 'user'@'%' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON db_edge_framework.* TO 'user'@'%';
+FLUSH PRIVILEGES;
