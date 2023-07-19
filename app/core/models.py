@@ -139,4 +139,4 @@ class TblEdgeDevice(models.Model):
         db_table = 'tbl_edge_device'
 
     def __str__(self):
-        return f'{self.id} {self.group_name}'
+        return f'{self.group_name}'

@@ -9,7 +9,7 @@ services:
     volumes:
       - ./app:/app
     command: >
-      sh -c "py manage.py runserver 0.0.0.0:8000"
+      sh -c "python manage.py runserver 0.0.0.0:8000"
     environment:
       - DATABASE_HOST=db
       - DATABASE_PORT=3306
